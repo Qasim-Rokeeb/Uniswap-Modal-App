@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         loginMethods: ['wallet'],
         embeddedWallets: { createOnLogin: 'users-without-wallets' },
       }}
-    >
+    >----
       <App />
     </PrivyProvider>
   </React.StrictMode>,
